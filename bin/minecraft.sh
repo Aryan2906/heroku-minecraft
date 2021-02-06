@@ -11,4 +11,4 @@ touch server.log
 nice tail -f server.log &
 
 # Run minecraft
-java -Xmx1024M -Xms1024M -jar vendor/minecraft_server.jar nogui
+java -Xmx10G -Xms10G -jar vendor/minecraft_server.jar nogui
